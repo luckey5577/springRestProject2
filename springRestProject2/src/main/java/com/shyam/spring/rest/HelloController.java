@@ -19,7 +19,7 @@ import com.shyam.spring.beans.TeamMember;
 public class HelloController {
 	@RequestMapping(method=RequestMethod.GET , path="/hello")
 	public String sayHello() {
-		return "Wecome ="+"name1";
+		return "Wecome ="+"name2";
 	}
 	
 	//Example of Getmapping and @RequestParam
